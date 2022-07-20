@@ -1,3 +1,4 @@
 #!/bin/sh
 
-python /application/service.py
+# python3 /application/service.py
+python3 service.py

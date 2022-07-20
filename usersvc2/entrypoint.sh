@@ -1,4 +1,4 @@
 #!/bin/sh
 
-python /application/service.py &
-/usr/local/bin/envoy -c /application/envoy.json
+python3 /application/service.py &
+envoy -c /application/envoy.yaml
