@@ -62,11 +62,11 @@ curl $(minikube service --url usersvc)/user/health
 should show you something like
 
 ```
-{ 
+{
   "hostname": "usersvc-1941676296-zlrt2",
   "msg": "user health check OK",
   "ok": true,
-  "resolvedname": "172.17.0.10" 
+  "resolvedname": "172.17.0.10"
 }
 ```
 
@@ -87,7 +87,7 @@ This should give us a user record for Alice, including her UUID but not her pass
   "hostname": "usersvc-1941676296-zlrt2",
   "ok": true,
   "resolvedname": "172.17.0.10",
-  "uuid": "44FD5687B15B4AF78753E33E6A2B033B" 
+  "uuid": "44FD5687B15B4AF78753E33E6A2B033B"
 }
 ```
 
